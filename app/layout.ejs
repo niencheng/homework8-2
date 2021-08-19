@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <nav class="fixed-top bg-white">
+    <div class="container d-flex justify-content-between">
+      <a href="index.html" class="logo">petpet</a>
+      <div class="d-none d-md-block">
+        <ul class="list-unstyled d-flex m-0 fw-bold pt-2">
+          <li class="ps-4"><a href="detail.html">預約服務</a></li>
+          <li class="ps-4"><a href="###">成為寵物保姆</a></li>
+          <li class="ps-4"><a href="###">登入</a></li>
+        </ul>
+      </div>
+      <ul class="list-unstyled collapse drop" id="collapseExample">
+        <li><a href="detail.html">預約服務</a></li>
+        <li><a href="###">成為寵物保姆</a></li>
+        <li><a href="###">登入</a></li>
+      </ul>
+      <a class="dropdown-icon d-block d-md-none" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+  </nav>
+
+  <%- contents %>
+
+  <footer class="footer mb-md-4">
+ 
+    <div class="bg-success py-4">
+      <div class="container">
+        <h3 data-aos="fade-up" class="text-primary fw-bolder fs-md-1">有任何我們能幫助您的嗎？</h3>
+        <p data-aos="fade-up" class="text-primary fw-bolder fs-md-2">輸入電子信箱<br>將有專業人員在線幫您解決所有問題</p>
+        
+        <div class="row">
+          <form data-aos="fade-up" action="" class="input-group col-md-9">
+            <input type="text" class="form-control form-control-lg w-50 footermail-md" placeholder="example@gmail.com" aria-label="mail" aria-describedby="sendmail">
+            <button class="btn btn-secondary w-50 footermail-send-md" type="button" id="sendmail">送出</button>
+          </form>
+        </div>
+      
+      </div>
+    </div>
+    
+    <div class="container d-flex flex-column">
+      <ul class="list-unstyled row align-items-center mb-0 mt-md-4 mb-md-3">
+        <li class="col-md-3">
+          <a href="index.html">
+            <img src="assets/images/logo.svg" alt="" class="footer-logo">
+          </a>
+        </li>
+        <li class="col-md-3 d-none d-md-block">
+          <a href="###"><h4 class="fw-bolder">寵物服務</h4></a>
+        </li>
+        <li class="col-md-3 d-none d-md-block">
+          <a href="###"><h4 class="fw-bolder">加入我們</h4></a>
+        </li>
+        <li class="col-md-3 d-none d-md-block">
+          <a href="###"><h4 class="fw-bolder">聯繫我們</h4></a>
+        </li>
+      </ul>
+      
+      <ul data-aos="fade-up" class="list-unstyled row mb-md-5">
+        
+        <li class="col-md-3">
+          <ul class="list-unstyled fw-bolder d-none d-md-block">
+            <li>
+              <a href="###"><p>關於我們</p></a>
+            </li>
+            <li>
+              <a href="###"><p>幫助中心</p></a>
+            </li>
+            <li>
+              <a href="###"><p>使用條款</p></a>
+            </li>
+            <li>
+              <a href="###"><p>隱私政策</p></a>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="col-md-3">
+          <ul class="list-unstyled fw-bolder d-none d-md-block">
+            <li>
+              <a href="###"><p>寵物寄宿</p></a>
+            </li>
+            <li>
+              <a href="###"><p>寵物到府保姆</p></a>
+            </li>
+            <li>
+              <a href="###"><p>寵物美容洗澡</p></a>
+            </li>
+            <li>
+              <a href="###"><p>寵物行為訓練</p></a>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="col-md-3">
+          <ul class="list-unstyled fw-bolder d-none d-md-block">
+            <li>
+              <a href="###"><p>成為寵物保姆</p></a>
+            </li>
+            <li>
+              <a href="###"><p>加入寵物計程車</p></a>
+            </li>
+            <li>
+              <a href="###"><p>專屬 APP 下載</p></a>
+            </li>
+            <li>
+              <a href="###"><p>相關合約條款</p></a>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="col-md-3">
+          <ul class="list-unstyled fw-bolder d-none d-md-block">
+            <li>
+              <a href="###"><p>petpet@petmail.com</p></a>
+            </li>
+          </ul>
+        </li>
+        
+      </ul>
+      
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-3 d-none d-md-block">
+          <span class="text-primary align-middle material-icons">local_phone</span>
+          <span class="fs-5 text-primary fw-bolder">07-123-4567</span>
+        </div>
+        <p class="text-primary fw-bolder col-md-5 m-md-0" style="font-size:14px;">Copyright © 2020 PetPet. All rights reserved.</p>
+      </div>
+    </div>
+  
+  </footer>
+  
+  
+  
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+  </script>
+</body>
+
+</html>
